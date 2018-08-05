@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-//#import <WMAdSDK/WMAdSDK.h>
+#import <WMAdSDK/WMAdSDK.h>
 
 @interface ViewController ()
 

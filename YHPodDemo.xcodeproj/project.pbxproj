@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F19C7D3211724B400AD3CCE /* WMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F19C7D2211724B400AD3CCE /* WMAdSDK.framework */; };
 		6F2311B42114AA2000A56133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2311B32114AA2000A56133 /* AppDelegate.m */; };
 		6F2311B72114AA2000A56133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2311B62114AA2000A56133 /* ViewController.m */; };
 		6F2311BA2114AA2000A56133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2311B82114AA2000A56133 /* Main.storyboard */; };
@@ -14,10 +15,10 @@
 		6F2311BF2114AA2B00A56133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2311BD2114AA2B00A56133 /* LaunchScreen.storyboard */; };
 		6F2311C22114AA2B00A56133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2311C12114AA2B00A56133 /* main.m */; };
 		6F2311CB2114AAA700A56133 /* WMAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F2311C92114AAA500A56133 /* WMAdSDK.bundle */; };
-		6F2311CC2114AAA700A56133 /* WMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2311CA2114AAA600A56133 /* WMAdSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F19C7D2211724B400AD3CCE /* WMAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WMAdSDK.framework; sourceTree = "<group>"; };
 		6F2311AF2114AA2000A56133 /* YHPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2311B22114AA2000A56133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F2311B32114AA2000A56133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		6F2311C02114AA2B00A56133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F2311C12114AA2B00A56133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F2311C92114AAA500A56133 /* WMAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMAdSDK.bundle; sourceTree = "<group>"; };
-		6F2311CA2114AAA600A56133 /* WMAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WMAdSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2311CC2114AAA700A56133 /* WMAdSDK.framework in Frameworks */,
+				6F19C7D3211724B400AD3CCE /* WMAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +80,8 @@
 		6F2311C82114AA3E00A56133 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				6F19C7D2211724B400AD3CCE /* WMAdSDK.framework */,
 				6F2311C92114AAA500A56133 /* WMAdSDK.bundle */,
-				6F2311CA2114AAA600A56133 /* WMAdSDK.framework */,
 			);
 			path = Public;
 			sourceTree = "<group>";
