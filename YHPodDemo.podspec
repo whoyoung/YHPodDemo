@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YHPodDemo"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "This is a short description of YHPodDemo."
 
   s.description  = <<-DESC
