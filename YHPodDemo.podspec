@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PodDemo.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YHPodDemo.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "PodDemo"
+  s.name         = "YHPodDemo"
   s.version      = "1.0.1"
-  s.summary      = "This is a short description of PodDemo."
+  s.summary      = "This is a short description of YHPodDemo."
 
   s.description  = <<-DESC
     测试含framework的pod上传
